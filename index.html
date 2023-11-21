@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>CLASS-CAMP</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
@@ -77,7 +78,7 @@
             <div class="shoot-img">
 
                 <img src="./img/shoot-one.png" alt="img" class="shoot-img-one">
-                <img src="./img/shoot-two.png" alt="img" class="shoot-img-two">
+                <img src="./img/shoot-two.png" alt="img" class="shoot-img-two"  data-aos="flip-left">>
             </div>
         </div>
     </div>
@@ -90,7 +91,7 @@
         <div class="enrich">
 
             <div class="enrich-image">
-                <img class="enrich-image-one" src="./img/enrich-one.png" alt="img">
+                <img class="enrich-image-one" src="./img/enrich-one.png" alt="img" data-aos="flip-up">>
                 <img class="enrich-image-two" src="./img/enrich-two.png" alt="img">
             </div>
 
@@ -232,7 +233,9 @@
 
                 <div class="card-block">
 
-                    <img src="./img/card-one.png" alt="img">
+                    <img src="./img/card-one.png" alt="img" data-aos="flip-left"
+                         data-aos-easing="ease-out-cubic"
+                         data-aos-duration="2000">>
 
                     <div class="card-block-text">
                         <h3>
@@ -246,7 +249,9 @@
                     </div>
                 </div>
                 <div class="card-block">
-                    <img src="./img/card-two.png" alt="img">
+                    <img src="./img/card-two.png" alt="img" data-aos="flip-left"
+                         data-aos-easing="ease-out-cubic"
+                         data-aos-duration="2000">>
 
                     <div class="card-block-text">
                         <h3>
@@ -259,7 +264,9 @@
                     </div>
                 </div>
                 <div class="card-block">
-                    <img src="./img/card-three.png" alt="img">
+                    <img src="./img/card-three.png" alt="img" data-aos="flip-left"
+                         data-aos-easing="ease-out-cubic"
+                         data-aos-duration="2000">>
 
                     <div class="card-block-text">
                         <h3>
@@ -272,7 +279,9 @@
                     </div>
                 </div>
                 <div class="card-block">
-                    <img src="./img/card-four.png" alt="img">
+                    <img src="./img/card-four.png" alt="img" data-aos="flip-left"
+                         data-aos-easing="ease-out-cubic"
+                         data-aos-duration="2000">>
 
                     <div class="card-block-text">
                         <h3>
@@ -285,7 +294,9 @@
                     </div>
                 </div>
                 <div class="card-block">
-                    <img src="./img/card-five.png" alt="img">
+                    <img src="./img/card-five.png" alt="img" data-aos="flip-left"
+                         data-aos-easing="ease-out-cubic"
+                         data-aos-duration="2000">>
 
                     <div class="card-block-text">
                         <h3>
@@ -320,7 +331,7 @@
                 feedback on your own time, via text or video.
             </p>
 
-            <img src="./img/offer-one.png" alt="img">
+            <img src="./img/offer-one.png" alt="img" data-aos="zoom-out-left">>
         </div>
     </div>
 </section>
@@ -364,55 +375,87 @@
 </section>
 
 <!--cour start-->
-<section id="cour">
+<section id="block">
     <div class="container">
-        <div class="cour">
-            <h2>Featured courses</h2>
-            <div class="cour-block-general">
-                <div class="cour-block">
-                    <div class="cour-one">
+        <div class="block">
+            <h1>
+                Featured courses
+            </h1>
+
+            <div class="block-mans">
+                <div class="block-general">
+
+                    <div class="block-man">
+
                         <img src="./img/cour-one.png" alt="img">
-                        <h6>SMOE NOVA</h6>
-                        <a>
-                            <ion-icon name="logo-youtube"></ion-icon>
-                            188K subscribers
-                        </a>
+
+                        <div class="block-man-text">
+                            <h3>SMOE NOVA</h3>
+                            <h5>
+                                <ion-icon name="logo-youtube"></ion-icon>
+                                188K subscribers
+                            </h5>
+                        </div>
+
                     </div>
-                    <div class="cour-text">
-                        <h6>4-WEEK course Starting SEPTEMBER '21</h6>
-                        <h3>Going Wild with Graffiti Letters</h3>
-                        <p>Style writing is so much fun. I'll teach you the tools from my 20 years of practicing with
+
+                    <div class="block-title">
+                        <h4>4-WEEK course Starting SEPTEMBER '21</h4>
+                        <h2>
+                            Going Wild with <br> Graffiti Letters
+                        </h2>
+                        <p>
+                            Style writing is so much fun. I'll teach you the tools from my 20 years of practicing with
                             letters.
                             Learn how to create new solutions, new letters, get more creative, and how to clean up the
                             style
                             to
                             get rid of all the useless nonsense.</p>
-                        <button>Pre-signup
+                        <a href="#">
+                            Pre-signup
                             <ion-icon name="arrow-forward-outline"></ion-icon>
-                        </button>
-                    </div>
-                </div>
-                <div class="cour-block">
-                    <div class="cour-two">
-                        <img src="./img/cour-two.png" alt="img">
-                        <h6>The Airbrush Guy</h6>
-                        <a>
-                            <ion-icon name="logo-youtube"></ion-icon>
-                            237K subscribers
                         </a>
                     </div>
-                    <div class="cour-text">
-                        <h6>4-WEEK course Starting SEPTEMBER '21</h6>
-                        <h3>Learn How to Airbrush</h3>
+                </div>
+                <div class="block-general">
+
+                    <div class="block-man">
+
+                        <img src="./img/cour-two.png" alt="img">
+
+                        <div class="block-man-text">
+                            <h3>
+                                The Airbrush Guy
+                            </h3>
+
+                            <h5>
+                                <ion-icon name="logo-youtube"></ion-icon>
+                                237K subscribers
+                            </h5>
+                        </div>
+                    </div>
+
+                    <div class="block-title">
+
+                        <h4>
+                            4-WEEK course Starting SEPTEMBER '21
+                        </h4>
+
+                        <h2>
+                            Learn How to Airbrush
+                        </h2>
+
                         <p>
                             Gain confident control of the airbrush to create simple artworks and lettering. You'll also
                             get
                             an
                             understanding of how to set up, clean, and maintain your airbrushes.
                         </p>
-                        <button>Pre-signup
+
+                        <a href="#">
+                            Pre-signup
                             <ion-icon name="arrow-forward-outline"></ion-icon>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -422,33 +465,38 @@
 <!--cour end-->
 
 <!--footer start-->
-<footer id="product">
+<footer id="footer">
     <div class="container">
-        <div class="product">
-            <img src="./img/logo.svg" alt="img">
-            <div class="product-general">
-                <h3>PRODUCT</h3>
+        <div class="footer">
+
+
+            <img src="img/footer-logo.svg" alt="img">
+
+            <div class="footer-nav">
+                <h3>Product</h3>
+
                 <a href="#">Create a course</a>
                 <a href="#">Find a course</a>
                 <a href="#">Features</a>
                 <a href="#">Pricing</a>
             </div>
+            <div class="footer-nav">
+                <h3>Company</h3>
 
-            <div class="product-general">
-                <h3>COMPANY</h3>
                 <a href="#">For Creators</a>
                 <a href="#">About us</a>
                 <a href="#">Contact</a>
             </div>
+            <div class="footer-nav">
+                <h3>ResOURCES</h3>
 
-            <div class="product-general">
-                <h3>RESOURCES</h3>
                 <a href="#">FAQ</a>
                 <a href="#">Terms of service</a>
                 <a href="#">Privacy policy</a>
                 <a href="#">Impressum</a>
             </div>
-            <div class="product-general ion-icon">
+            <div class="footer-icons">
+
                 <a href="#">
                     <ion-icon name="logo-youtube"></ion-icon>
                 </a>
@@ -462,12 +510,13 @@
         </div>
     </div>
 </footer>
-
-
 <!--footer end-->
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
